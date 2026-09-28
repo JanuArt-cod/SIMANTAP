@@ -1,0 +1,1 @@
+@if($role->permissions->contains($permission->id)) checked @endif
